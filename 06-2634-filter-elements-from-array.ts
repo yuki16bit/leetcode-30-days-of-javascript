@@ -1,4 +1,4 @@
-// * https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/?envType=study-plan-v2&envId=30-days-of-javascript
+// * https://leetcode.com/problems/filter-elements-from-array/?envType=study-plan-v2&envId=30-days-of-javascript
 // * Basic Array Transformations
 
 type Fn = (n: number, i: number) => any
