@@ -10,11 +10,11 @@ function expect(val: any): ToBeOrNotToBe {
   return {
     toBe: (testCase) => {
       if (testCase === val) return true;
-      throw new Error("Not Equal");
+      throw new Error('Not Equal');
     },
     notToBe: (testCase) => {
       if (testCase !== val) return true;
-      throw new Error("Equal");
-    }
-  }
-};
+      throw new Error('Equal');
+    },
+  };
+}

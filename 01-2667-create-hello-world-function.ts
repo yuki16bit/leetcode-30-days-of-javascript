@@ -2,7 +2,10 @@
 // * Closure
 
 // * Arrow function
-const createHelloWorld = (...args) => () => "Hello World";
+const createHelloWorld =
+  (...args) =>
+  () =>
+    'Hello World';
 
 // * Function
 // function createHelloWorld() {

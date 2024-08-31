@@ -2,10 +2,10 @@
 // * Closure
 
 function createCounter(n: number): () => number {
-  let prev = 0
-  return function() {
+  let prev = 0;
+  return function () {
     const result = n + prev;
     prev += 1;
     return result;
-  }
+  };
 }

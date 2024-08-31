@@ -2,16 +2,16 @@
 // * Closure
 
 type Counter = {
-  increment: () => number,
-  decrement: () => number,
-  reset: () => number,
-}
+  increment: () => number;
+  decrement: () => number;
+  reset: () => number;
+};
 
 function createCounterII(init: number): Counter {
   let cur = init;
   return {
     increment: () => ++cur,
     decrement: () => --cur,
-    reset: () => cur = init
+    reset: () => (cur = init),
   };
-};
+}
